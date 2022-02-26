@@ -11,6 +11,8 @@
 		900B1ED127CA4C8B005E26F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900B1ED027CA4C8B005E26F7 /* ContentView.swift */; };
 		900B1ED327CA4C8C005E26F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900B1ED227CA4C8C005E26F7 /* Assets.xcassets */; };
 		900B1ED627CA4C8C005E26F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900B1ED527CA4C8C005E26F7 /* Preview Assets.xcassets */; };
+		900B1EDE27CA4D57005E26F7 /* FileUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900B1EDC27CA4D57005E26F7 /* FileUploader.swift */; };
+		900B1EDF27CA4D57005E26F7 /* GetFilefromFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900B1EDD27CA4D57005E26F7 /* GetFilefromFolder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		900B1ED027CA4C8B005E26F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		900B1ED227CA4C8C005E26F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		900B1ED527CA4C8C005E26F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		900B1EDC27CA4D57005E26F7 /* FileUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUploader.swift; sourceTree = "<group>"; };
+		900B1EDD27CA4D57005E26F7 /* GetFilefromFolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFilefromFolder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		900B1ECD27CA4C8B005E26F7 /* FileUploadClient */ = {
 			isa = PBXGroup;
 			children = (
+				900B1EDC27CA4D57005E26F7 /* FileUploader.swift */,
+				900B1EDD27CA4D57005E26F7 /* GetFilefromFolder.swift */,
 				900B1ECE27CA4C8B005E26F7 /* FileUploadClientApp.swift */,
 				900B1ED027CA4C8B005E26F7 /* ContentView.swift */,
 				900B1ED227CA4C8C005E26F7 /* Assets.xcassets */,
@@ -139,6 +145,8 @@
 			files = (
 				900B1ED127CA4C8B005E26F7 /* ContentView.swift in Sources */,
 				900B1ECF27CA4C8B005E26F7 /* FileUploadClientApp.swift in Sources */,
+				900B1EDF27CA4D57005E26F7 /* GetFilefromFolder.swift in Sources */,
+				900B1EDE27CA4D57005E26F7 /* FileUploader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
